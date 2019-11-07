@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+  
+    "name": "Irf Production Alert",
+    "description": "This extension will place a warning message on all pages of production",
+    "version": "1.0",
+    "icons": {
+      "128": "icon128.png",
+      "48": "icon48.png",
+      "16": "icon16.png"
+    },
+  
+    "browser_action": {
+      "default_icon": "icon16.png",
+      "default_popup": "popup.html"
+    },
+    "content_scripts": [
+      {
+        "matches": ["https://perdixcms.kgfs.co.in/perdix-client-kgfs/*","https://kinara.perdix.in/perdix-client/*","https://finwego.perdix.in/perdix-client/*","http://13.126.44.79:8081/perdix-client/*"],
+        "js":["script.js"]
+      }
+    ]
+  }
