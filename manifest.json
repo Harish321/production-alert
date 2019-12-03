@@ -16,7 +16,7 @@
     },
     "content_scripts": [
       {
-        "matches": ["https://perdixcms.kgfs.co.in/perdix-client-kgfs/*","https://kinara.perdix.in/perdix-client/*","https://finwego.perdix.in/perdix-client/*","http://13.126.44.79:8081/perdix-client/*"],
+        "matches": ["https://perdixcms.kgfs.co.in/perdix-client-kgfs/*","https://kinara.perdix.in/perdix-client/*","https://finwego.perdix.in/perdix-client/*","http://13.126.44.79:8081/perdix-client/*","http://sarvagram.perdix.in:8081/perdix-client/*"],
         "js":["script.js"]
       }
     ]
