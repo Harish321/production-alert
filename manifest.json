@@ -22,7 +22,8 @@
           "https://finwego.perdix.in/perdix-client/*",
           "http://13.126.44.79:8081/perdix-client/*",
           "http://sarvagram.perdix.in:8081/perdix-client/*",
-          "https://produat.kinara.perdix.co.in:8443/encore/*"
+          "https://produat.kinara.perdix.co.in:8443/encore/*",
+          "https://subk.perdix.in/perdix-client/*"
         ],
         "js":["script.js"]
       }
